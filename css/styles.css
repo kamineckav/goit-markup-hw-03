@@ -76,6 +76,7 @@ img {
 .header {
   border-bottom: 1px solid var(--accent);
   background: var(--white-background);
+  padding: 24px 0;
 }
 
 .header-container {
@@ -97,7 +98,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  padding: 24px 0;
 }
 
 .header-logo-studio {
