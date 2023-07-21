@@ -176,6 +176,10 @@ img {
   display: block;
   margin: 0 auto;
   margin-top: 48px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -331,6 +335,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
 .catalog-btn {
@@ -346,12 +351,20 @@ img {
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
+  border-radius: 4px;
 }
 
 .catalog-btn:hover,
 .catalog-btn:focus {
   color: var(--white-background);
   background-color: var(--pressed-state);
+  border: 1px solid transparent;
+}
+
+.catalog-project {
+  padding: 32px 16px;
+  border: 1px solid var(--accent);
+  border-top: none;
 }
 
 .catalog-project-list {
@@ -361,7 +374,6 @@ img {
 }
 
 .catalog-project-item {
-  border: 1px solid var(--accent);
   background: var(--white-background);
   width: calc((100% - 48px) / 3);
 }
@@ -376,8 +388,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   text-align: center;
 }
 
@@ -386,6 +397,5 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
   text-align: center;
 }
