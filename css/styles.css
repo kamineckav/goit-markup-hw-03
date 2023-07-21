@@ -39,6 +39,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 100%;
   max-width: 1158px;
@@ -70,8 +74,6 @@ button {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid var(--accent);
   background: var(--white-background);
 }
@@ -97,6 +99,8 @@ button {
   display: flex;
   align-items: center;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo-studio {
@@ -191,6 +195,7 @@ button {
 
 .advantages {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .advantages-list {
@@ -223,7 +228,6 @@ button {
 }
 
 .doing {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -242,6 +246,7 @@ button {
 
 .our-team {
   background-color: var(--light);
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -265,15 +270,19 @@ button {
   width: calc((100% - 24 * 3) / 4);
 }
 
+.our-team-list-info {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
 .our-team-list-title {
   color: var(--dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .our-team-list-text {
@@ -281,8 +290,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
-  text-align: center;
 }
 
 .footer {
@@ -299,6 +306,8 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-studio {
@@ -310,13 +319,12 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 16px;
   max-width: 264px;
 }
 
-.catalog-btn-wrap {
+.catalog-section {
   padding-top: 96px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
 }
 
 .catalog-btn-list {
