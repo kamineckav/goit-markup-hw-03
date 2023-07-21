@@ -96,7 +96,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 24px 0;
   margin-right: 76px;
 }
 
@@ -116,6 +115,7 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-nav-link:hover,
