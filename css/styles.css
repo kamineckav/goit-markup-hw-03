@@ -76,7 +76,6 @@ img {
 .header {
   border-bottom: 1px solid var(--accent);
   background: var(--white-background);
-  padding: 24px 0;
 }
 
 .header-container {
@@ -117,6 +116,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
 .header-nav-link:hover,
@@ -140,6 +140,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
   padding: 24px 0;
 }
 
@@ -254,7 +255,6 @@ img {
 }
 
 .our-team-title {
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -388,7 +388,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
+  text-align: left;
 }
 
 .catalog-project-text {
@@ -396,5 +396,5 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: left;
 }
